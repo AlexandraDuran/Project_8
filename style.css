@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  /*espacio externo - AGARRA color, el padding no*/
+  padding: 0;
+  /*espacio interno*/
+  box-sizing: border-box;
+  /*evitar un desbordamiento con el padding*/
+  /* el class con punto, y # para el id */
+}
+
+body {
+  background-color: rgb(3, 3, 3);
+  width: 100%;
+  /* convierte flexible el contenedor  */
+  display: flex;
+  /* gap: 3rem; espacio defspues */
+  align-items: center;
+  min-height: 100vh;
+
+  justify-content: center;
+  /* flex-direction: column; */
+}
+#particles-js {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+/* .principal{
+    background-color: blueviolet !important;
+} */
+main {
+  /*color fondo*/
+  background-color: bisque;
+  width: 55%;
+  margin: 40px 0; /* Espacio arriba y abajo */
+}
+
+h1 {
+  font-size: 20px;
+  color: rgb(107, 47, 171);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+section {
+  /* padding en todos los lados */
+  padding: 2.3rem;
+  /* padding: 3rem 8rem;X. Y o 3rem 8rem 20rem 1rem - arrida derecha abajo izquierda */
+}
+
+section article {
+  margin-bottom: 2rem;
+  /* padding: 2rem; linea debajo de imag y el parrafo
+    border-bottom:  3px solid red; */
+}
+figure {
+  display: flex;
+}
+figure figcaption p {
+  margin-top: 1.3rem;
+  color: rgb(29, 66, 51);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.rounded-md {
+  border-radius: 1rem;
+}
+
+.list-icons {
+  list-style: none;
+}
+
+i {
+  font-size: 1.3rem;
+}
+.flex {
+  display: flex;
+}
+.gap-2 {
+  gap: 1.3rem;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+}
+th {
+  text-align: left;
+}
+th,
+td {
+  padding: 1rem;
+}
+
+thead th {
+  color: rgb(151, 78, 230);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+thead th:nth-child(4) {
+  text-align: center;
+}
+
+footer {
+  background-color: #f9f4f4e7;
+  padding: 20px 0;
+  border-bottom-left-radius: 1rem; /* Borde redondeado en la esquina inferior izquierda */
+  border-bottom-right-radius: 1rem; /* Borde redondeado en la esquina inferior derecha */
+  text-align: center;
+  margin-top: 20px; /* Espacio entre el rectángulo principal y el footer */
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Línea divisoria entre la tabla y el footer */
+hr {
+  margin: 2rem 0;
+}
+
+/* Estilos para los íconos de redes sociales */
+.social-icons {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.social-icons li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+}
